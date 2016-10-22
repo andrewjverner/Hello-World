@@ -71,9 +71,11 @@ navbar > navbar-fixed-top{
     background-color :#00f;
   }
   
-  .navbar-inverse .navbar-nav > li > a{
-    color: #00f;
+  .navbar-inverse .navbar-nav > li > a{ 
+    color: #fff;
   }
+.navbar-inverse .navbar-nav > li > a:hover{ 
+    color: #000;
   background-repeat: no-repeat;
   background-size: cover}
 
