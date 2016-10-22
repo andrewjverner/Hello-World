@@ -61,7 +61,7 @@ a {
   text-align: center;
   background-color: #159957;
   background-image: url(../Galaxy.jpg);
-  background-repeat: no-repeat;
+  background: cover;
 }
  /*navbar backround and font colorization*/
 navbar > navbar-fixed-top{
@@ -80,6 +80,8 @@ navbar > navbar-fixed-top{
 }
   background-repeat: no-repeat;
   background-size: cover}
+
+  
 
 @media screen and (min-width: 64em) {
   .page-header {
