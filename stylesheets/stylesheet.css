@@ -54,10 +54,22 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #000;
+  margin:0px;
+  height:85%;
+  padding:0px;
+  color: #00f;
+ 
   text-align: center;
   background-color: #159957;
-  background-image: url(../galaxy.jpg);
+  background-image: url(../Galaxy.jpg);
+ /*navbar backround and font colorization*/
+  .navbar-inverse{
+    background-color :#00f;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a{
+    color: #00f;
+  }
   background-repeat: no-repeat;
   background-size: cover}
 
