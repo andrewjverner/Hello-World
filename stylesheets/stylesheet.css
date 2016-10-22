@@ -58,11 +58,15 @@ a {
   height:85%;
   padding:0px;
   color: #00f;
- 
   text-align: center;
   background-color: #159957;
   background-image: url(../Galaxy.jpg);
+}
  /*navbar backround and font colorization*/
+navbar > navbar-fixed-top{
+  margin:0px;
+  padding:0px;
+}
   .navbar-inverse{
     background-color :#00f;
   }
